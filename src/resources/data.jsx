@@ -23,10 +23,10 @@ export const navOptions = [
         href: '../Third-Electrical-Site-React/subPage/industrial',
         title: 'Industrial',
     },
-    {
-        href: '../Third-Electrical-Site-React/subPage/other',
-        title: 'Other Services',
-    },
+    // {
+    //     href: '../Third-Electrical-Site-React/subPage/other',
+    //     title: 'Other Services',
+    // },
     {
         href: '../Third-Electrical-Site-React/contact',
         title: 'Contact Us',

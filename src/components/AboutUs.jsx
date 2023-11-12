@@ -23,7 +23,7 @@ const AboutUs = () => {
                 z-20 border border-accent text-text-light bg-[#0002]
                 flex flex-col justify-center text-center gap-y-4
                 my-[2px] mx-auto p-3 w-11/12 max-w-[200px]
-                hover:bg-[#797878] hover:rounded-[100px] hover:border-[#797878]
+                hover:bg-accent hover:rounded-[100px] hover:border-[#797878]
                 transition-all duration-700 ease-in-out' >
                       {a.icon}
                     <h3>{a.number}</h3>

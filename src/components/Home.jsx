@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useLayoutEffect } from 'react'
 import AboutUs from './AboutUs'
 import Footer from './Footer'
 import Header from './Header'
@@ -7,6 +7,9 @@ import Reviews from './Reviews'
 import WhatWeDo from './WhatWeDo'
 
 const Home = () => {
+
+ 
+
   
   return (
     <>

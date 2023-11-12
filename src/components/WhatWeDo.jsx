@@ -29,7 +29,7 @@ const WhatWeDo = () => {
                 </Link>
             ))}
         </div>
-        <Cities  />
+        {/* <Cities  /> */}
       </div>
   )
 }

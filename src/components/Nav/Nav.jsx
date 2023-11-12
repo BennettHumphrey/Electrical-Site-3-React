@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useWindowWidth } from '../useWindowWidth';
 import DesktopNav from './DesktopNav';
 import MobileNav from './MobileNav';
@@ -6,6 +6,8 @@ import MobileNav from './MobileNav';
 const Nav = () => {
 
     const width = useWindowWidth();
+
+
 
   return (
     <div>

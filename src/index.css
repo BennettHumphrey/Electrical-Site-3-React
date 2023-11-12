@@ -38,3 +38,9 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
   }
+  
+  #widgetIcon {
+    margin-right: 500px !important;
+    padding-right: 500px !important;
+    right: 500px !important;
+  }
