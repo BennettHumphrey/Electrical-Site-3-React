@@ -14,7 +14,7 @@ const DialogflowMessenger = () => {
   
             dfMessenger.addEventListener('df-messenger-loaded', function (event) {
   
-                dfMessenger.renderCustomText('Welcome to electrical company');
+                dfMessenger.renderCustomText('Welcome to Fake Electric (This chatbot is not trained, just an example)');
                 console.log('trigger')
   
                 const widget = document.querySelector('df-messenger')

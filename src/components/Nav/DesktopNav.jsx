@@ -7,7 +7,7 @@ const DesktopNav = () => {
     <div className='sticky bg-main z-10 flex justify-evenly h-12 text-xl' >
         <Link to="/">
             <img 
-            src="../../company-logo.png" 
+            src="../../Electrical-Site-3-React/company-logo.png" 
             height="50px"
             width="50px" 
             className="h-10 w-10 mt-1" 
