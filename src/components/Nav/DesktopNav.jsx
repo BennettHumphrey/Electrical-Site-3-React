@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const DesktopNav = () => {
   return (
     <div className='sticky bg-main z-10 flex justify-evenly h-12 text-xl' >
-        <Link to="/">
+        <Link to="/Electrical-Site-3-React/">
             <img 
             src="../../Electrical-Site-3-React/company-logo.png" 
             height="50px"
@@ -14,7 +14,8 @@ const DesktopNav = () => {
             alt="company-logo"/>
         </Link>
         {navOptions.map((o, i) => (
-                    <Link key={i} className='h-full flex items-center px-6 duration-500 hover:bg-menu hover:text-text-light active:bg-menu active:text-text-light active:duration-0' to={o.href}>
+                    <Link key={i} className='h-full flex items-center px-6 duration-500 hover:bg-menu hover:text-text-light active:bg-menu active:text-text-light active:duration-0' 
+                                to={o.href}>
                         <p>{o.title}</p>
                     </Link>
                 ))}

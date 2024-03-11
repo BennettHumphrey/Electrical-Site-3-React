@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect } from 'react'
+import React from 'react'
 import AboutUs from './AboutUs'
 import Footer from './Footer'
 import Header from './Header'

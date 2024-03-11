@@ -2,8 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { whatWeDo } from '../resources/data'
 import Cities from './Cities'
-//map for WhatWeDo sections
+
+
+
+
 const WhatWeDo = () => {
+    
   return (
     <div className='bg-main'>
         <h2 className='pt-12 text-center text-3xl text-text' >What We Do</h2>
