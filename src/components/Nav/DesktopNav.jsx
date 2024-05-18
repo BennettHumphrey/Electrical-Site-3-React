@@ -2,6 +2,8 @@ import React from 'react'
 import { navOptions } from '../../resources/data'
 import { Link } from 'react-router-dom'
 
+
+
 const DesktopNav = () => {
   return (
     <div className='sticky bg-main z-10 flex justify-evenly h-12 text-xl' >
@@ -15,7 +17,7 @@ const DesktopNav = () => {
         </Link>
         {navOptions.map((o, i) => (
                     <Link key={i} className='h-full flex items-center px-6 duration-500 hover:bg-menu hover:text-text-light active:bg-menu active:text-text-light active:duration-0' 
-                                to={o.href}>
+                                to="/Electrical-Site-3-React/">
                         <p>{o.title}</p>
                     </Link>
                 ))}
