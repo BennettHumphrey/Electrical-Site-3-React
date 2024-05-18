@@ -8,19 +8,19 @@ export const navOptions = [
         title: 'Home',
     },
     {
-        href: '../subPage/about',
+        href: '/subPage/about',
         title: 'About Us',
     },
     {
-        href: '../subPage/residential',
+        href: '/subPage/residential',
         title: 'Residential',
     },
     {
-        href: '../subPage/commercial',
+        href: '/subPage/commercial',
         title: 'Commercial',
     },
     {
-        href: '../subPage/industrial',
+        href: '/subPage/industrial',
         title: 'Industrial',
     },
     // {
@@ -28,7 +28,7 @@ export const navOptions = [
     //     title: 'Other Services',
     // },
     {
-        href: '../contact',
+        href: '/contact',
         title: 'Contact Us',
     },
 ]
