@@ -12,18 +12,18 @@ import DialogflowMessenger from './components/DialogflowMessenger';
 
 const router = createBrowserRouter([
   {
-    path: "/Electrical-Site-3-React/",
+    path: "/",
     element: <Home  />,
   },
   {
-    path: "/Electrical-Site-3-React/subPage/:subPageId",
+    path: "/subPage/:subPageId",
     element: <SubPage  />,
     loader: ({params}) => {
       return subPages[params.subPageId];
     }
   },
   {
-    path: "/Electrical-Site-3-React/contact",
+    path: "/contact",
   element: <Contact  />
 },
 ]);
