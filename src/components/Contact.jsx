@@ -1,5 +1,4 @@
 import React from 'react'
-import CallNow from './CallNow'
 import Footer from './Footer'
 import Nav from './Nav/Nav'
 

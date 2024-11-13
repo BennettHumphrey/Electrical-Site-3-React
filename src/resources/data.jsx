@@ -19,10 +19,10 @@ export const navOptions = [
         href: '/subPage/commercial',
         title: 'Commercial',
     },
-    {
-        href: '/subPage/industrial',
-        title: 'Industrial',
-    },
+    // {
+    //     href: '/subPage/industrial',
+    //     title: 'Industrial',
+    // },
     // {
     //     href: '../subPage/other',
     //     title: 'Other Services',

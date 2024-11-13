@@ -49,7 +49,7 @@ const Footer = () => {
               <h4 className=' font-bold text-text-light border-b-[2px] border-b-accent
               max-w-[200px] mt-8 mb-8 mx-4 sm:mb-[71px]'>Social Media</h4>
               <div className='flex ml-4 pb-12' >
-                  <a className='flex justify-center items-center bg-accent ml-[0.2rem] w-[60px] h-[60px] rounded-xl
+                  <a href='https://www.instagram.com/bennett.humphrey/' target='_blank' className='flex justify-center items-center bg-accent ml-[0.2rem] w-[60px] h-[60px] rounded-xl
                                 hover:bg-orange-400 duration-700 hover:cursor-pointer group hover:rounded-3xl hover:scale-95'  >
                     <CgInstagram className='text-footer-bg w-3/5 h-3/5 group-hover:text-text-light duration-1000' />
                   </a>

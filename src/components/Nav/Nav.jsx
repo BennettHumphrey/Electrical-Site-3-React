@@ -1,26 +1,20 @@
-import React, { useEffect } from 'react';
-import { useWindowWidth } from '../useWindowWidth';
-import DesktopNav from './DesktopNav';
-import MobileNav from './MobileNav';
+import React from "react";
+import { useWindowWidth } from "../useWindowWidth";
+import DesktopNav from "./DesktopNav";
+import MobileNav from "./MobileNav";
 
 const Nav = () => {
-
-    const width = useWindowWidth();
-
-
+  const width = useWindowWidth();
 
   return (
-    <div>
-        <div className='flex items-center' >
-            <h1 className='text-2xl p-2 bg-accent text-text-light w-screen text-center' >Call us! 250-555-5555</h1>
-        </div>
-        {width > 1018 ? <DesktopNav  /> : <MobileNav  />}
+    <div className="sticky top-0 z-50">
+      {/* <div className="sticky top-4 h-10 z-50 w-full bg-white"></div> */}
+      
+      <div className="">
+        {width > 1018 ? <DesktopNav /> : <MobileNav />}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-
-
-
-
-export default Nav
+export default Nav;

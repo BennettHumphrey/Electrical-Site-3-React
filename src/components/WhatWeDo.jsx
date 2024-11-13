@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { whatWeDo } from '../resources/data'
-import Cities from './Cities'
 
 
 
